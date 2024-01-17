@@ -1,3 +1,41 @@
+Metadata-Version: 2.1
+Name: openai
+Version: 1.6.1
+Summary: The official Python library for the openai API
+Project-URL: Homepage, https://github.com/openai/openai-python
+Project-URL: Repository, https://github.com/openai/openai-python
+Author-email: OpenAI <support@openai.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.7.1
+Requires-Dist: anyio<5,>=3.5.0
+Requires-Dist: distro<2,>=1.7.0
+Requires-Dist: httpx<1,>=0.23.0
+Requires-Dist: pydantic<3,>=1.9.0
+Requires-Dist: sniffio
+Requires-Dist: tqdm>4
+Requires-Dist: typing-extensions<5,>=4.7
+Provides-Extra: datalib
+Requires-Dist: numpy>=1; extra == 'datalib'
+Requires-Dist: pandas-stubs>=1.1.0.11; extra == 'datalib'
+Requires-Dist: pandas>=1.2.3; extra == 'datalib'
+Description-Content-Type: text/markdown
+
 # OpenAI Python API library
 
 [![PyPI version](https://img.shields.io/pypi/v/openai.svg)](https://pypi.org/project/openai/)
